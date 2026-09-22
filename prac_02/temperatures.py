@@ -5,6 +5,7 @@ Program for temperature conversion
 
 
 def main():
+    """Displays menu for options, gets user input and displays converted value"""
     MENU = """C - Convert Celsius to Fahrenheit
     F - Convert Fahrenheit to Celsius
     Q - Quit"""

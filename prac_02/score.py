@@ -6,6 +6,7 @@ import random
 
 
 def main():
+    """Gets value for score, displays result for user score and random score"""
     score = float(input("Enter score: "))
     print(f"User score {score} is {determine_result(score)}")
     if determine_result(score) == "Excellent":
