@@ -1,0 +1,11 @@
+# print("Electricity bill estimator")
+# price_per_kwh = float(input("Enter cents per kWh: "))
+# daily_use = float(input("Enter daily use in kWh: "))
+# billing_day_count = int(input("Enter number of billing days: "))
+# print(f"Estimated bill: {((price_per_kwh * daily_use) / 100) * billing_day_count:.2f}")
+
+print("Electricity bill estimator 2.0")
+price_per_kwh = float(input("Enter cents per kWh: "))
+daily_use = float(input("Enter daily use in kWh: "))
+billing_day_count = int(input("Enter number of billing days: "))
+print(f"Estimated bill: {((price_per_kwh * daily_use) / 100) * billing_day_count:.2f}")
