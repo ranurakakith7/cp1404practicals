@@ -6,11 +6,11 @@ Program for temperature conversion
 
 def main():
     """Displays menu for options, gets user input and displays converted value"""
-    MENU = """C - Convert Celsius to Fahrenheit
+    MENU = """\tC - Convert Celsius to Fahrenheit
     F - Convert Fahrenheit to Celsius
     Q - Quit"""
     print(MENU)
-    choice = input(">>> ").upper()
+    choice = input("Choice: ").upper()
     while choice != "Q":
         if choice == "C":
             convert_celsius_to_fahrenheit()
@@ -19,7 +19,7 @@ def main():
         else:
             print("Invalid option")
         print(MENU)
-        choice = input(">>> ").upper()
+        choice = input("Choice: ").upper()
     print("Thank you.")
 
 
