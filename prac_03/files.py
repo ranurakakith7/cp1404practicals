@@ -13,5 +13,11 @@ out_file.close()
 with open("numbers.txt") as in_file:
     num1 = int(in_file.readline())
     num2 = int(in_file.readline())
-print(f"Total: {num1 + num2}")
+print(f"Total of first two numbers: {num1 + num2}")
 
+# 4
+total = 0
+with open("numbers.txt") as in_file:
+    for line in in_file:
+        total += int(line)
+print(f"Total of all numbers: {total}")
